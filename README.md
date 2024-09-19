@@ -1,1 +1,2 @@
-# machine-learning
+# Airbnb Data Insights: Exploratory Data Analysis (EDA) and Feature Engineering
+This project is part of the CS6140: Machine Learning course (Fall 2024). The goal of this assignment is to perform Exploratory Data Analysis (EDA) and Feature Engineering on Airbnb's Listings and Reviews data. By analyzing data from multiple cities, we aim to uncover insights that can help optimize Airbnb listings and improve guest satisfaction.
