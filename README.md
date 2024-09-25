@@ -1,5 +1,5 @@
 # Project Overview
-The project involves **Exploratory Data Analysis (EDA)** and **Feature Engineering** on Airbnb's Listings and Reviews datasets for five cities(city1,  city2, city3,city4,city5). Key tasks include descriptive statistics, correlation analysis, price trends, neighborhood comparisons, outlier detection, and review text analysis.
+The project involves **Exploratory Data Analysis (EDA)** and **Feature Engineering** on Airbnb's Listings and Reviews datasets for five major Tech Hubs in the United States: **Boston, Chicago, Los Angeles, Dallas and San Francisco**. Key tasks include descriptive statistics, correlation analysis, price trends, neighborhood comparisons, outlier detection, and review text analysis.
 
 # Objectives:
 1. Perform EDA on Listings data (e.g., price, review scores).
@@ -7,7 +7,8 @@ The project involves **Exploratory Data Analysis (EDA)** and **Feature Engineeri
 3. Identify correlations and trends across neighborhoods.
 
 # Data Source
-Data is sourced from Inside Airbnb, including property listings and guest reviews for five selected cities.
+Data is sourced from Inside Airbnb, including property listings and guest reviews for five selected cities. 
+🔗Source: [https://insideairbnb.com/get-the-data/](https://insideairbnb.com/get-the-data/)
 
 # Tasks
 * Descriptive Statistics: Summary stats for key features like price and review scores.
