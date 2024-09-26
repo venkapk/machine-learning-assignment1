@@ -49,10 +49,21 @@ Data is sourced from Inside Airbnb. The datasets used are:
 3. Identify correlations and trends across neighborhoods using the listings data.
 
 # Tasks
-* Descriptive Statistics: Summary stats for key features like price and review scores.
-* Distribution Analysis: Visualize distributions and detect outliers.
-* Correlation & Price Analysis: Identify correlations and trends in pricing across neighborhoods.
-* Review Feature Engineering: Extract keywords and analyze review text length.
+* **Descriptive Statistics**: Calculate summary statistics for numerical features such as `price`, `minimum_nights`, `maximum_nights`, `number_of_reviews`, and
+`review_scores_rating`. Understand the central tendency, dispersion, and distribution of these variables.
+* **Distribution Analysis**: Plot histograms or density plots for key numerical features like `price`, `minimum_nights`, and `review_scores_rating`. Analyze the
+distribution of these features to identify any skewness or outliers.
+* **Correlation Analysis**: Create a correlation matrix to explore relationships between numerical variables such as `price`, `number_of_reviews`, `availability_365`,
+and `review_scores_rating`. Identify any strong correlations that might be useful for predictive modeling or further investigation.
+* **Price Analysis**: Analyze the distribution of prices across different neighborhoods (`host_neighbourhood`) or room types (if available). Understand which
+neighborhoods have higher or lower average prices and whether certain neighborhoods are more popular for shortterm or longterm stays.
+* **Neighborhood Comparison**: Compare the average `review_scores_rating` across different neighborhoods. Determine if certain neighborhoods have consistently higher
+ratings, which could indicate better or worse guest experiences.
+* **Outlier Detection**: Identify outliers in the dataset, particularly in `price`, `minimum_nights`, and `review_scores_rating`.
+* **Text Length**: Create a new feature that measures the length of each review (number of words or characters). Determine if the length of a review
+correlates with its sentiment or the review scores.
+* **Keyword Extraction**: Identify and count the occurrence of specific keywords (e.g., "clean," "comfortable," "noisy") in the reviews. Generate new features based on the
+presence of these keywords, which might influence guest satisfaction.
 
 # Contributors
 * Milad Ghavami
