@@ -26,21 +26,11 @@ Data is sourced from Inside Airbnb. The datasets used are:
     |       ├──listingsDallas       # Listings data for Boston
     │   ├── README.md               # Describes the data sources
     ├── tasks/
-    │   ├── Boston/                 # Directory for tasks for Boston
-    |   |   ├──BostonListings       # Tasks such as EDA, feature engineering, and results on listing dataset for Boston
-    │   │   ├──BostonReviews        # Tasks such as EDA, feature engineering, and results on reviews dataset for Boston
-    │   ├── Chicago/                # Directory for tasks for Boston
-    |   |   ├──ChicagoListings      # Tasks such as EDA, feature engineering, and results on listing dataset for Chicago
-    │   │   ├──ChicagoReviews       # Tasks such as EDA, feature engineering, and results on reviews dataset for Chicago
-    │   ├── Los Angeles/            # Directory for tasks for Los Angeles
-    |   |   ├──LosAngelesListings   # Tasks such as EDA, feature engineering, and results on listing dataset for Los Angeles
-    │   │   ├──LosAngelesReviews    # Tasks such as EDA, feature engineering, and results on reviews dataset for Los Angeles
-    │   ├── Dallas/                 # Directory for tasks for DAllas
-    |   |   ├──DallasListings       # Tasks such as EDA, feature engineering, and results on listing dataset for Dallas
-    │   │   ├──DallasReviews        # Tasks such as EDA, feature engineering, and results on reviews dataset for Dallas
-    │   ├── SF/                     # Directory for tasks for San Francisco
-    |   |   ├──SanFranListings      # Tasks such as EDA, feature engineering, and results on listing dataset for SF
-    │   │   ├──SanFranReviews       # Tasks such as EDA, feature engineering, and results on reviews dataset for SF
+    │   ├── Boston                  # Tasks such as EDA, feature engineering, and results  for Boston
+    │   ├── Chicago                 # Directory for tasks for Boston
+    │   ├── LosAngeles              # Directory for tasks for Los Angeles
+    │   ├── Dallas                  # Directory for tasks for DAllas
+    │   ├── SanFrancisco            # Directory for tasks for San Francisco
     └── README.md                   # This README file
 
 # Objectives:
