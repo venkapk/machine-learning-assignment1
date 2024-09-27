@@ -27,10 +27,10 @@ Data is sourced from Inside Airbnb. The datasets used are:
     │   ├── README.md               # Describes the data sources
     ├── tasks/
     │   ├── Boston                  # Tasks such as EDA, feature engineering, and results  for Boston
-    │   ├── Chicago                 # Directory for tasks for Boston
-    │   ├── LosAngeles              # Directory for tasks for Los Angeles
-    │   ├── Dallas                  # Directory for tasks for DAllas
-    │   ├── SanFrancisco            # Directory for tasks for San Francisco
+    │   ├── Chicago                 # Tasks such as EDA, feature engineering, and results  for Chicago
+    │   ├── LosAngeles              # Tasks such as EDA, feature engineering, and results  for LA
+    │   ├── Dallas                  # Tasks such as EDA, feature engineering, and results  for Dallas
+    │   ├── SanFrancisco            # Tasks such as EDA, feature engineering, and results  for San Francisco
     └── README.md                   # This README file
 
 # Objectives:
