@@ -56,8 +56,6 @@ correlates with its sentiment or the review scores.
 presence of these keywords, which might influence guest satisfaction.
 
 # Limitations
-* **Descriptive Statistics**:
-* **Distribution Analysis**:
 * **Correlation Analysis**: Handling of NaN values: We dropped the NaN values from the dataset assuming there is no significant difference in the data analysis. 
 * **Price Analysis**:
 1- **Data Skewness**: Pricey homes can totally mess up the average prices. The median's probably better for seeing what homes in a neighborhood actually go for. 
