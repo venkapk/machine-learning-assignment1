@@ -55,6 +55,27 @@ correlates with its sentiment or the review scores.
 * **Keyword Extraction**: Identify and count the occurrence of specific keywords (e.g., "clean," "comfortable," "noisy") in the reviews. Generate new features based on the
 presence of these keywords, which might influence guest satisfaction.
 
+# Limitations
+* **Descriptive Statistics**:
+* **Distribution Analysis**:
+* **Correlation Analysis**: Handling of NaN values: We dropped the NaN values from the dataset assuming there is no significant difference in the data analysis. 
+* **Price Analysis**:
+1- **Data Skewness**: Pricey homes can totally mess up the average prices. The median's probably better for seeing what homes in a neighborhood actually go for. 
+2- **Missing Key Variables**: The analysis skips over stuff like the season, the quality of the property, and amenities—things that all affect prices. It also does not look at occupancy rates. 
+* **Neighborhood Comparison**:
+1 - Missing Data: Some neighborhoods do not have review scores listed and hence were excluded from the analysis, which might result in an incomplete comparison. 
+2 - Unequal Distribution: Some neighborhoods could have many listings while others may have fewer. The average rating thus may not accurately reflect guest experiences in neighborhoods with fewer listings. 
+3 - Outliers: Since we do not capture extreme values, a few listings with very extreme ratings could influence the overall average of a neighborhood. 
+* **Outlier Detection**:
+1- Sensitivity of Methods: IQR and Z-score methods could flag legit cases, like luxury homes or long-term rentals, as outliers, especially if the data's a bit skewed. 
+2- Over-simplification of Stay Durations: Places designed for longer stays could get wrongly flagged as outliers because of their minimum night stays. 
+3- Static Data: The analysis does not consider price changes over time, meaning the outliers it detects might only be temporary. 
+* **Text Length**: Blank Reviews: Some listing_id values did not have associated reviews. In the code, we handled this by excluding those rows, assuming their absence would not significantly impact the overall data analysis. Similarly for some listing_id there were no review score associated so we excluded those rows as well. 
+* **Keyword Extraction**:
+1 - Keyword Limitations: The selected keywords, although common, may not fully capture the entire scope of guest experiences. Additional keywords or specific vocabulary could enhance the analysis. 
+2 - Keyword Context: The approach counts keyword occurrences without considering the context. For example, the word “clean” may appear in both positive and negative scenarios (e.g., not clean). More advanced techniques, like NLP, could be used to address this. 
+3 - Review Availability: The availability of few or no reviews may not provide meaningful data for analysis, which can lead to incomplete insights for listings. 
+
 # Contributors
 * Milad Ghavami
 * Pravinkumar Yadav
